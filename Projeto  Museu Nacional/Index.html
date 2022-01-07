@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="Imagens/5605logo.ico" type="image/x-icon">
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="CSS/normalize.css">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!--[if lt IE 9]>
+	    <script src="html5shiv.js"></script>
+    <![endif]-->
+
+
+    <title>Museu Nacional</title>
+
+</head>
+
+<body>
+    <div id="container">
+        <!-- Início container-->
+
+        <header>
+            <!-- Início header-->
+            <div id="logo">
+                <h1><a href="">Museu Nacional</a></h1>
+            </div>
+
+            <nav>
+                <!-- Início navbar-->
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Exposições</a></li>
+                    <li><a href="">Pesquisa</a></li>
+                    <li><a href="">Acervos</a></li>
+                    <li><a href="">Vídeo</a></li>
+                    <li><a href="">Fotos</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav>
+            <!--/ Fim navbar-->
+        </header>
+        <!--/ Fim header-->
+
+        <div id="principal">
+            <!-- Início principal-->
+
+            <div id="conteudo">
+                <!-- Início conteúdo-->
+                <section id="capa">
+                    <img src="Imagens/museu.png" alt="Museu">
+                </section>
+
+                <section id="postagens">
+                    <article id="video">
+                        <h3>Vídeo: Conheça o museu</h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </article>
+
+                    <article id="mapa">
+                        <h3>Mapa: Encontre o museu</h3>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.206445595909!2d-43.228722948647!3d-22.9057550435211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sNational%20Museum%20of%20Brazil!5e0!3m2!1sen!2sbr!4v1619073684354!5m2!1sen!2sbr"
+                            width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </article>
+
+                    <article id="exposicoes">
+                        <h3>Exposições</h3>
+                        <ul>
+                            <li><a href="#">Os assustadores insetos</a></li>
+                            <li><a href="#">O crânio de Luzia, a mulher mais antiga do Brasil</a></li>
+                            <li><a href="#">Preguiça gigante e tigre-dentes-de-sabre</a></li>
+                            <li><a href="#">Plantas do Brasil Central</a></li>
+                            <li><a href="#">Teresa Cristina: A Imperatriz Arqueóloga</a></li>
+                            <li><a href="#">Arte com dinossauros - Paleoarte</a></li>
+                            <li><a href="#"><strong>Veja todos (65)</strong></a></li>
+                        </ul>
+                    </article>
+
+                    <article id="historia">
+                        <h3>200 anos de história</h3>
+                        <p>
+                            The National Museum of Brazil was Brazil's oldest scientific institution. It is located in
+                            the city of Rio de Janeiro, where it is installed in the Paço de São Cristóvão, which is
+                            inside the Quinta da Boa Vista.
+                        </p>
+                        <p>
+                            The National Museum of Brazil (Portuguese: Museu Nacional) was Brazil's oldest scientific
+                            institution.It is located in the city of Rio de Janeiro, where it is installed in the Paço
+                            de São Cristóvão (Saint Christopher's Palace), which is inside the Quinta da Boa Vista. The
+                            main building was originally the residence of ...
+                        </p>
+                        <a target="_blank" href="https://en.wikipedia.org/wiki/National_Museum_of_Brazil"><strong>Leia
+                                mais</strong></a>
+                    </article>
+
+                </section>
+            </div>
+            <!--/ Fim conteúdo-->
+
+            <aside>
+                <section id="depoimento">
+                    <img src="Imagens/depoimento.png" alt="Depoimento">
+                </section>
+
+                <section id="visita">
+                    <!-- Início visita-->
+                    <h4>Faça uma visita</h4>
+                    <form action="">
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+                            <label for="data">Data:</label>
+                            <input class="campo" type="date" id="data">
+
+                            <label for="qtd">Qtd pessoas:</label>
+                            <input style="width: 22.5px;" class="campo" type="number" id="qtd" min="1" placeholder="1">
+                        </fieldset>
+
+                        <input class="botao" type="submit" value="Verificar disponibilidade">
+                    </form>
+                </section>
+                <!--/ Fim visita-->
+
+                <section id="galeria">
+                    <h4>Galeria de fotos</h4>
+                    <a href="">
+                        <img src="Imagens/imagem1.jpg" height="93px" width="93px">
+                    </a>
+                    <a href="">
+                        <img src="Imagens/imagem2.jpg" height="93px" width="93px">
+                    </a>
+                    <a href="">
+                        <img src="Imagens/imagem3.jpg" height="93px" width="93px">
+                    </a>
+                    <a href="">
+                        <img src="Imagens/imagem4.jpg" height="93px" width="93px">
+                    </a>
+
+                </section>
+
+            </aside>
+
+            <footer>
+                <p>
+                    <a href="#">Home</a>
+                    <a href="#">Exposições</a>
+                    <a href="#">Pesquisa</a>
+                    <a href="#">Acervos</a>
+                    <a href="#">Vídeo</a>
+                    <a href="#">Fotos</a>
+                    <a href="#">Contato</a>
+                </p>
+                <p>
+                    2021<a href="">Museu Nacional</a>- Todos os direitos reservados.
+                </p>
+            </footer>
+        </div>
+        <!--/ Fim principal-->
+
+
+    </div>
+    <!--/ Fim container-->
+
+</body>
+
+</html>
